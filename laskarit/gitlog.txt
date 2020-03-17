@@ -1,0 +1,95 @@
+commit 5bcb1722fbe8c866961f02dd85d5f8415a957be4
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 17:34:00 2020 +0200
+
+    räplätty filuja
+
+ tiedostoja/file2             | 0
+ tiedostoja/{file1 => file22} | 0
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c7292db359f79b847b90b448862f72f7f6d50012
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 17:30:28 2020 +0200
+
+    tehty tiedostoja
+
+ tiedostoja/file1 | 0
+ tiedostoja/file2 | 0
+ tiedostoja/file3 | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit 7e39de714b47592cba9868e07954994e8fe44f75
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 17:25:17 2020 +0200
+
+    räplätty ekaa ja kolmatta
+
+ eka.txt    | 4 ++--
+ kolmas.txt | 1 +
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 491d4cbce916f1ffc75167a79614c6a092ccee91
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 17:23:07 2020 +0200
+
+    vaihdettu tiedosto.txt -> eka.txt
+
+ tiedosto.txt => eka.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 05106b6241d0a5d71143f6313ed57d1a68ea5e78
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 17:22:12 2020 +0200
+
+    poistettu toinen.txt
+
+ toinen.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 8b29eab9e26e34533e6a953b9f0b295b80ce28ad
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 17:18:42 2020 +0200
+
+    räplätty tiedosto.txt:tä
+
+ tiedosto.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit bb2b25ae111d1b4f48af928fc1bf04bc901230c2
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 17:00:43 2020 +0200
+
+    luotu stuff-kansio ja hv.txt sen sisään
+
+ stuff/hv.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 081e3b28d668215be201368199dff94cdf84c3bd
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 16:59:30 2020 +0200
+
+    luotu kolmas.txt
+
+ kolmas.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 473fe674d0fc47f0fffaaeb25f34ec40ac5255c0
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 16:52:50 2020 +0200
+
+    muutos ja lisäys
+
+ tiedosto.txt | 1 +
+ toinen.txt   | 0
+ 2 files changed, 1 insertion(+)
+
+commit e299b49bc75fb48c7954b12e9c705d78ba5e39fa
+Author: Joel <joel.ljungqvist@hotmail.com>
+Date:   Tue Mar 17 16:49:00 2020 +0200
+
+    tiedosto.txt luotu
+
+ tiedosto.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
