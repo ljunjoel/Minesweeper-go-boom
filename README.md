@@ -7,6 +7,6 @@ It was an **ordinary** day until I got absolutely wrecked by technology.
 
 Once more for the *ladies!* Let's **GO!**
 
-[gitlog.txt](https://github.com/ljunjoel/ot-harjoitustyo/blob/master/laskarit/gitlog.txt)
+[gitlog.txt](laskarit/viikko1/gitlog.txt)
 
-[komentorivi.txt](https://github.com/ljunjoel/ot-harjoitustyo/blob/master/laskarit/komentorivi.txt)
+[komentorivi.txt](laskarit/viikko1/komentorivi.txt)
