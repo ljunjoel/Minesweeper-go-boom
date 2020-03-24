@@ -2,4 +2,4 @@
 
 | päivä | aika | mitä tein  |
 | :----:|:-----| :-----|
-| 18.2. | 3    | tutustuminen JavaFX:n |
+| 24.3. | 20 min | vaatimusmäärittely |
