@@ -10,6 +10,7 @@ Sovellus on miinaharava-pelin n:s iteraatio.
 - Itse peli
   - Pelilogiikka
    - Aluksi kaikki ruudut "piilotettuna", ensimmäisen painalluksen jälkeen tehdään miinat, avataan karttaa ja annetaan     reunoille numerot
+   
 - Hall of Fame
  - Pelin läpipäässyt pelaaja saa kirjoittaa nimensä Hall of Fameen, jota pääsee ihastelemaan koska vain(kun ei ole pelissä)
  
