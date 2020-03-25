@@ -10,3 +10,5 @@ Once more for the *ladies!* Let's **GO!**
 [gitlog.txt](laskarit/viikko1/gitlog.txt)
 
 [komentorivi.txt](laskarit/viikko1/komentorivi.txt)
+
+[Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
