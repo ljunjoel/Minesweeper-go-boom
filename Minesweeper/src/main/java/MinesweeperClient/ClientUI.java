@@ -7,9 +7,11 @@ package MinesweeperClient;
 
 import javafx.scene.control.Button;
 import javafx.application.Application;
+import javafx.geometry.Pos;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
+//import javafx.scene.effect.Dropshadow;
 
 /**
  *
@@ -19,12 +21,18 @@ public class ClientUI extends Application {
 
     @Override
     public void start(Stage stage) throws Exception {
-        BorderPane menu = new BorderPane();
+        GridPane menu = new GridPane();
+        
         Button playButton = new Button("Play!");
+        playButton.setPrefSize(400, 200);
         Button hofButton = new Button("Hall of Fame");
-
-        menu.getChildren().add(playButton);
-        menu.getChildren().add(hofButton);
+        hofButton.setPrefSize(400, 200);
+       // Dropshadow shadow = new Dropshadow();
+        
+        menu.add(playButton, 200, 0);
+        menu.add(hofButton, 200, 300);
+        menu.setPrefSize(800, 600);
+        menu.setAlignment(Pos.CENTER);
 
         Scene scene = new Scene(menu);
 
