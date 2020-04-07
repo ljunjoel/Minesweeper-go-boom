@@ -1,14 +1,9 @@
-# Ohjelmointitekniikka
-## Viikko 1
-### The pharse
-It was an **ordinary** day until I got absolutely wrecked by technology. 
+# Minesweeper
+Sovellus on miinaharava-pelin n:s iteraatio
 
-**See?** I *forgot* to use italics originally...
+The application is the nth iteration of the well known game minesweeper
 
-Once more for the *ladies!* Let's **GO!**
-
-[gitlog.txt](laskarit/viikko1/gitlog.txt)
-
-[komentorivi.txt](laskarit/viikko1/komentorivi.txt)
+## Dokumentaatio
 
 [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
+[Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
