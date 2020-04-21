@@ -5,6 +5,6 @@
     "http://www.puppycrawl.com/dtds/suppressions_1_1.dtd">
 
 <suppressions>
-    <suppress files="Minesweeper.MinesweeperClient.ClientUI.java" checks="[a-zA-Z0-9]*"/>
-    <suppress files="Minesweeper.MinesweeperClient.NewMain.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MinesweeperClient.ClientUI.java" checks="[a-zA-Z0-9]*"/>
+    <suppress files="MinesweeperClient.NewMain.java" checks="[a-zA-Z0-9]*"/>
 </suppressions>
