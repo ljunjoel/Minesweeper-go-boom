@@ -25,6 +25,9 @@ public class ClientUI extends Application {
         
         Button playButton = new Button("Play!");
         playButton.setPrefSize(400, 200);
+        playButton.setOnMouseClicked((event) -> {
+            GameUI.main(null);
+        });
         Button hofButton = new Button("Hall of Fame");
         hofButton.setPrefSize(400, 200);
        // Dropshadow shadow = new Dropshadow();
