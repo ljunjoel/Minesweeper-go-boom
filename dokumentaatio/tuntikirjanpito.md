@@ -8,4 +8,5 @@
 | 5.4.  | 3 h  | JavaFX saatu vihdoin toimimaan ja valikko pelittämään. Yritetty tehdä valikosta liian hieno, liian kauan |
 | 20.4. | 1 h  | Räpelletty Checkstylen kanssa |
 | 21.4. | 9 h  | Saatu itse peli tulille. Vietetty liian monta tuntia turhaan etsien bugia pelin logiikassa |
-| total: | 18h 20 min |  | 
+| 28.4. | 5 h  | Yritetty keksiä testejä ja tarpeellisia gettereitä ja settereitä. Yritetty myös keksiä parempia tapoja     kirjoittaa koodi, jotta se olisi testattavampi |
+| total: | 23 h 20 min |  | 
