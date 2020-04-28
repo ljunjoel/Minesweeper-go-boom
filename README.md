@@ -8,3 +8,5 @@ The application is the nth iteration of the well known game minesweeper
 [Vaatimusmäärittely](dokumentaatio/vaatimusmaarittely.md)
 
 [Tuntikirjanpito](dokumentaatio/tuntikirjanpito.md)
+
+[Käyttöohje](dokumentaatio/kayttoohje.md)
