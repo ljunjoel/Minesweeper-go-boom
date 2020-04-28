@@ -10,14 +10,15 @@ import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import minesweeperGame.GameBoard;
 
 /**
  *
  * @author joel
  */
-public class MinesweeperTest {
+public class GameBoardTest {
     
-    public MinesweeperTest() {
+    public GameBoardTest() {
     }
     
     @BeforeAll
@@ -35,7 +36,8 @@ public class MinesweeperTest {
     @AfterEach
     public void tearDown() {
     }
-
+    
+   
     // TODO add test methods here.
     // The methods must be annotated with annotation @Test. For example:
     //

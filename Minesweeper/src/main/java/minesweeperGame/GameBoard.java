@@ -36,9 +36,9 @@ public class GameBoard extends JPanel {
     private final int drawFlag = 11;
     private final int drawFalse = 12;
     
-    private final int mines = 40;
-    private final int rows = 16;
-    private final int cols = 16;
+    private int mines = 40;
+    private int rows = 16;
+    private int cols = 16;
     
     private final int width = cols * cellSize + 1;
     private final int height = rows * cellSize + 1;
@@ -283,6 +283,37 @@ public class GameBoard extends JPanel {
                 }
             }
             
+        }
+    }
+    
+    public boolean getStatus() {
+        return this.gameGoing;
+    }
+    
+    public void setGoing(boolean going) {
+        this.gameGoing = going;
+    }
+    
+    public void setCols(int x) {
+        this.cols = x;
+    }
+    public void setRows(int x) {
+        this.rows = x;
+    }
+    
+    public void setMines(int x) {
+        if(x >= cols*rows) {
+            this.mines = (cols*rows)-1;
+        } else if (x > 0) {
+            this.mines = x;
+        } else {
+            this.mines = 1;
+        }
+    }
+    
+    public void setMine(int col, int row) {
+        if((col < cols * cellSize) && (row < rows * cellSize)) {
+            field[row*col] = mineInHiding;
         }
     }
 }
