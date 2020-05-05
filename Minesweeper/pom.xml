@@ -53,7 +53,7 @@
                 <version>0.8.3</version>
                 <configuration>
                     <excludes>
-                        <exclude>MinesweeperClient/ClientUI/**/*</exclude>
+                        <exclude>minesweeperUI/ClientUI/**/*</exclude>
                     </excludes>
                 </configuration>
                 <executions>
@@ -96,7 +96,7 @@
                         <configuration>
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>MinesweeperClient.NewMain</mainClass>
+                                    <mainClass>minesweeperUI.NewMain</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>
