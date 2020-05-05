@@ -10,5 +10,5 @@
 | 21.4. | 9 h  | Saatu itse peli tulille. Vietetty liian monta tuntia turhaan etsien bugia pelin logiikassa |
 | 28.4. | 5 h  | Yritetty keksiä testejä ja tarpeellisia gettereitä ja settereitä. Yritetty myös keksiä parempia tapoja     kirjoittaa koodi, jotta se olisi testattavampi |
 | 4.5.  | 2 h  | Jatkettu samaa pohdintaa |
-| 5.5.  | 3 h  |Aloitettu itse pelin väkertäminen alusta |
-| total: | 28 h 20 min |  | 
+| 5.5.  | 4 h 30 min |Aloitettu itse pelin väkertäminen alusta |
+| total: | 29 h 50 min |  | 
