@@ -34,6 +34,7 @@ public class ClientUI extends Application {
         Button easyButton = new Button("Easy");
         easyButton.setPrefSize(200, 200);
         
+        
         Button mediumButton = new Button("Medium");
         mediumButton.setPrefSize(200, 200);
         
@@ -55,12 +56,25 @@ public class ClientUI extends Application {
         diffMenu.add(insaneButton, 200, 300);
         diffMenu.setPrefSize(800,600);
         diffMenu.setAlignment(Pos.CENTER);
+        
+        board.setPrefSize(800, 600);
+        board.setAlignment(Pos.CENTER);
 
         Scene scene = new Scene(mainMenu);
         Scene diffScene = new Scene(diffMenu);
+        Scene boardScene = new Scene(board);
         
         playButton.setOnMouseClicked((event) -> {
             stage.setScene(diffScene);
+        });
+        
+        easyButton.setOnMouseClicked((event) -> {
+            for(int x=1; x<=3; x++) {
+                for(int y=1; y<=3; y++) {
+                    board.add(new Tile(), x, y);
+                }
+            }
+            stage.setScene(boardScene);
         });
 
         stage.setTitle("Menu");
